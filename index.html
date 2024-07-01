@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge RPG</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="info">
+    <!-- Info -->
+    <h1>Déplacements</h1>
+    <ul>
+      <li>Q : Left</li>
+      <li>D : Right</li>
+      <li>Z : Up</li>
+      <li>S : Down</li>
+      <li>E : Forward</li>
+    </ul>
+  </div>
+  <!-- Board -->
+  <div class="container">
+    <h1 class="win_text">You won !!</h1>
+    <div class="board"></div>
+  
+    <!-- Listener html -->
+    <button class="reset" onclick="game.reset()">Reset</button>
+
+
+  <script src="./js/app.js" charset="utf-8"></script>
+  <script src="./js/board.js"></script>
+  <script src="./js/character.js"></script>
+  <script src="./js/deplacements.js"></script>
+  <script src="./js/game.js"></script>
+</body>
+</html>
